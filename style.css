@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bitter", serif;
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+}
+
+.kalkulator {
+  background-color: #034c8c;
+  height: 500px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.kalkulator h1 {
+  letter-spacing: 3px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.bag1 {
+  padding: 20px;
+}
+
+.bag2 {
+  margin-top: 15px;
+  height: 400px;
+  width: 90%;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+
+form input {
+  cursor: pointer;
+}
+
+form .input input {
+  font-size: 15px;
+}
+
+form .input input:hover {
+  background-color: #f2cb05;
+}
+
+.bag2 .hasil {
+  width: 100%;
+  height: 40%;
+  border-radius: 10px;
+}
+
+.bag2 .hasil input,
+.bag2 .hasil input:focus {
+  width: 99%;
+  height: 99%;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 5px solid #731717;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.input {
+  position: relative;
+  margin-top: 5px;
+  height: 57%;
+}
+
+.input input {
+  border-radius: 3px;
+}
+
+.input .baris1 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bag2 .input .baris1 #operasi,
+.bag2 .input .baris1 #clear {
+  border: 3px solid #731717;
+  width: 24%;
+  height: 90%;
+  box-sizing: border-box;
+}
+
+.kalkulator .bag2 .input input {
+  margin: 2px;
+}
+
+.input .baris2,
+.input .baris3 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input .baris4 {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input .baris2 input,
+.input .baris3 input {
+  width: 25%;
+  height: 90%;
+  border: 3px solid #731717;
+}
+
+.bag3 {
+  height: 40%;
+}
+
+.input .baris4 input {
+  width: 34%;
+  height: 90%;
+  border: 2px solid #731717;
+}
+
+.input .baris5 input {
+  width: 31.7%;
+  height: 90%;
+  border: 2px solid #731717;
+}
+
+.bag4 {
+  display: flex;
+  height: 50%;
+}
+
+.samadengan {
+  width: 24%;
+  height: 88px;
+}
+
+.samadengan input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #731717;
+}
+
+.input .baris5 {
+  width: 75%;
+  height: 50%;
+}
